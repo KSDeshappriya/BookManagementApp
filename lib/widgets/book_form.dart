@@ -19,7 +19,7 @@ class _BookFormState extends State<BookForm> {
   late final publisherController = TextEditingController(text: widget.initialBook?.publisher ?? '');
   DateTime? _selectedDate;
   late final genreController = TextEditingController(text: widget.initialBook?.genre ?? '');
-  late final numberOfCopiesController = TextEditingController(text: widget.initialBook?.numberOfCopies?.toString() ?? '');
+  late final numberOfCopiesController = TextEditingController(text: widget.initialBook?.numberOfCopies.toString() ?? '');
   late final descriptionController = TextEditingController(text: widget.initialBook?.description ?? '');
 
   @override
